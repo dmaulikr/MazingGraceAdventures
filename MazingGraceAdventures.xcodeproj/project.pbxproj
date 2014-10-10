@@ -192,8 +192,6 @@
 		8DD647E319E6D8A600F0575E /* you-need-to-grow-up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647D619E6D8A600F0575E /* you-need-to-grow-up.mp3 */; };
 		8DD647E419E6D8A600F0575E /* yummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647D719E6D8A600F0575E /* yummy.mp3 */; };
 		8DD647E519E6D8A600F0575E /* yummy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647D819E6D8A600F0575E /* yummy2.mp3 */; };
-		8DD647E719E6D8BD00F0575E /* 522151_SOUNDDOGS__so.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647E619E6D8BD00F0575E /* 522151_SOUNDDOGS__so.mp3 */; };
-		8DD647E919E6D92400F0575E /* 4225775_The_River_War_Original_Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647E819E6D92400F0575E /* 4225775_The_River_War_Original_Mix.mp3 */; };
 		8DD647F919E6DB1200F0575E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647EE19E6DB1200F0575E /* LICENSE */; };
 		8DD647FA19E6DB1200F0575E /* SneakyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD647F019E6DB1200F0575E /* SneakyButton.m */; };
 		8DD647FB19E6DB1200F0575E /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD647F219E6DB1200F0575E /* SneakyButtonSkinnedBase.m */; };
@@ -552,8 +550,6 @@
 		8DD647D619E6D8A600F0575E /* you-need-to-grow-up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-need-to-grow-up.mp3"; sourceTree = "<group>"; };
 		8DD647D719E6D8A600F0575E /* yummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy.mp3; sourceTree = "<group>"; };
 		8DD647D819E6D8A600F0575E /* yummy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy2.mp3; sourceTree = "<group>"; };
-		8DD647E619E6D8BD00F0575E /* 522151_SOUNDDOGS__so.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 522151_SOUNDDOGS__so.mp3; sourceTree = "<group>"; };
-		8DD647E819E6D92400F0575E /* 4225775_The_River_War_Original_Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4225775_The_River_War_Original_Mix.mp3; sourceTree = "<group>"; };
 		8DD647EE19E6DB1200F0575E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8DD647EF19E6DB1200F0575E /* SneakyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButton.h; sourceTree = "<group>"; };
 		8DD647F019E6DB1200F0575E /* SneakyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButton.m; sourceTree = "<group>"; };
@@ -1130,8 +1126,6 @@
 		8DD6475F19E6D29100F0575E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				8DD647E819E6D92400F0575E /* 4225775_The_River_War_Original_Mix.mp3 */,
-				8DD647E619E6D8BD00F0575E /* 522151_SOUNDDOGS__so.mp3 */,
 				8DD647CC19E6D8A600F0575E /* aaaah.mp3 */,
 				8DD647CD19E6D8A600F0575E /* blip2.mp3 */,
 				8DD647CE19E6D8A600F0575E /* bonus.mp3 */,
@@ -1266,12 +1260,10 @@
 				8DD647DF19E6D8A600F0575E /* shazam2.mp3 in Resources */,
 				8DD647F919E6DB1200F0575E /* LICENSE in Resources */,
 				8DD647CA19E6D5DC00F0575E /* soundon.png in Resources */,
-				8DD647E919E6D92400F0575E /* 4225775_The_River_War_Original_Mix.mp3 in Resources */,
 				8DD647E519E6D8A600F0575E /* yummy2.mp3 in Resources */,
 				8DD645D519E6D20100F0575E /* Icon-72.png in Resources */,
 				8DD647A819E6D4E900F0575E /* level1-debug.tmx in Resources */,
 				8DD647E219E6D8A600F0575E /* you-got-it-1.mp3 in Resources */,
-				8DD647E719E6D8BD00F0575E /* 522151_SOUNDDOGS__so.mp3 in Resources */,
 				8DD647BB19E6D5DC00F0575E /* amber_health_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
