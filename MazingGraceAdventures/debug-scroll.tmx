@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles_mga" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="bg" width="80" height="30" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAHgMMYCaUYAlAAA=
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAHgMMYCaUYAlAAA=
+  </data>
+ </layer>
+ <layer name="platforms" width="80" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QMQqAMAAEwcSn+P9HioWtRTYgwgxcf+wYAAAAAO/m1wd+Tr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a/Rr91c+hX7Oh37DjyU0+/05Z2t7sATrD1DoAlAAA=
+  </data>
+ </layer>
+</map>

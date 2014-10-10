@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset name="MGA" firstgid="1" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png"/>
+ </tileset>
+ <layer name="platforms" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2VQQqAIBBFsytUi2zXObr/uTJIGORDyczIOPjg71Se3wHDZJfwxirDD7OnxCIHWDf64+HZb0lZSTYpKYLn/lqg4Ve+e5maOeilP84dNbHUH5oLS36IGj90P+058NSfBLVv0GN/Lf7Vv/TYnyW8+0nOKj0rn+O9P22GHw/kN3/suZRcENnvNJrH7QYrLEb8wBIAAA==
+  </data>
+ </layer>
+ <layer name="clouds" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3RwQkAIAwEwYCK9l+x6UEIKjOw73tcBLdqWc9GwdbMVsHOyyr/4IyvAAAA/rIBoxpPiMASAAA=
+  </data>
+ </layer>
+ <layer name="stalks" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VMQrAIBBE0XiJlCksvP8RJZBKXBAn6jDMh+0fK2q6eEvfsGYfln1Ys777b0iQfVj2YdmHZR+W6v+xKxVfWQ0JGvU9qyFBKvtj9+1679pU9sfu8/3tp+I7fb6ZdF5bBbnzNDfAEgAA
+  </data>
+ </layer>
+ <layer name="enemies" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UMQoAIAiFYS/k2Nj9r9WSS0TUIyHi/xYJVGjwmQHIUod3ubQHgMZ7/eGmTv6gZg8AYF/kMpkLIENkjC+75pSZFzUogjIPwBIAAA==
+  </data>
+ </layer>
+ <layer name="rewards" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WwQ0AIAgEQf5GS8L+u/JHBciFsFMA2dwLMwDANFcdUMzVAQ2wEX5b6gAAYSfemvZTAJ0cdUCyB8EHZ9fAEgAA
+  </data>
+ </layer>
+</map>

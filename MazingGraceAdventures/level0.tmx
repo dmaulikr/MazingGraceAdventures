@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="MGA Tileset" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aQa6CMBSFYXFonKkT1+AS3P+69A5ICGlAOaU9Lf+XMITe96eKL+lw8jXUHmDFcPKe0Xm2QD8N/TT00+Tqd/te98n1yPDMcJR+e3GeLSz1m+6pXPvpXy33c+A8W6CfZs9+OT7/Pfbb612b0mO/kpxnC2795nvbabYUt35zzrOFX/rV/B3YQ7+anGcLuftdMj4rHKnf/Lt//nlPrXNdeWYr/Zb+7pxrTY29l9ZqpV+ptUrcUxL9NPTTuPXr5f+P1LtUfa+w//S1StxTEv009NO49ntvuKeGsd/T9GqlH7ahn4Z+Gvpp6Kehn4Z+Gvpp6Kehn4Z+GvfzV+7Yfxr6aeincT9/5Y79p6Gfhn6akuevesT+09BPQz+Ne79X7QFWlDx/1SP3/eeOfhr6aVL9zjUGaZT7+Sv3K9p9ADDZWkoASwAA
+  </data>
+ </layer>
+ <layer name="clouds" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VywkAIAxEwYC//js2RSgBnYF339tGcFvLejaqh3xoZbN6BADP8OkAAAAAAAAAAAAAAAAAAAAAZ2yvnuXTAEsAAA==
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aoRHAIBREQTxDSgr9d4XCRJM5QnYreAJz8ykFgBXudADH6OkAIKqmAzbV0gHwEm8bgOn0LXilAwAAAB7sFAAAAP7EHxUAgG9z1wAAAHZjp7DSAPIbZIgASwAA
+  </data>
+ </layer>
+</map>

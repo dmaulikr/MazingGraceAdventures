@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset name="MGA Tileset" firstgid="1" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png"/>
+ </tileset>
+ <layer name="blocks" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OMQEAAAwCIBusf9vF0AMSkAAAAACw5NqBMQ8fIjlHwBIAAA==
+  </data>
+ </layer>
+ <layer name="platforms" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2VUQ6AIAhAsytUP53F+5+r2mQ15hwCKqlv41N4AZpb7OJCWGX6ydD22+7YQxwK+UbrnzYpP+1Zcfhz/yxQ2k+6Ixy/b83Suzn6fHPBs7Hmh6H4tXwHe+hfSzT98G7jfeDUAb9UXi2wH3xPqlbN+Ur6V4PpJ4NSh/r/iN1F6b3poX+xM9PvrcU5g8+tjDyeWCsX8DuNxuN2AaGQXH/AEgAA
+  </data>
+ </layer>
+ <layer name="rewards" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XsQoAIAiEYfeoR8r3f6uGcGkSCo7w/0aXO3AQzYC8qS6ANFcXwBeaILMLMpHDblDN7a0cT1oAAKqLexL/th9zbAspMs4YwBIAAA==
+  </data>
+ </layer>
+ <layer name="Layer 3" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
+  </data>
+ </layer>
+</map>
