@@ -8,11 +8,19 @@
 
 #import "Lives.h"
 #import "Entity.h"
+#import "Helper.h"
+
 
 #define NUM_LIVES 3
-#define SCALE 1.1
-#define BLOCK_SIZE 16
+#define SCALE 2
+#define BLOCK_SIZE TOPOINT(16)
 #define GAP 2
+
+// Offsets into the tile set of the lives tile
+#define LIFE_X TOPOINT(48)
+#define LIFE_Y TOPOINT(48)
+#define LIFE_W TOPOINT(16)
+#define LIFE_H TOPOINT(16)
 
 static int value = NUM_LIVES;
 static CCLayer* lives = nil;
@@ -27,7 +35,7 @@ static CCLayer* lives = nil;
             [[CCTextureCache sharedTextureCache] addImage:@"tiles_mga.png"];
         
         CCSpriteFrame *life =
-            [CCSpriteFrame frameWithTexture:texture rect:CGRectMake(48, 48, 16, 16)];
+            [CCSpriteFrame frameWithTexture:texture rect:CGRectMake(LIFE_X, LIFE_Y, LIFE_W, LIFE_H)];
         
         // Add the lives as sprites to the layer
         for(int i=0; i < [Lives remaining]; i++) {

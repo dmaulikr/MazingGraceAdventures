@@ -14,6 +14,8 @@
 #import "Score.h"
 #import "LevelSequence.h"
 
+#define TILED_MAP @"level0.tmx"
+
 #define REWARD_MUSHROOM_LIL 5
 #define REWARD_MUSHROOM_BIG 10
 
@@ -46,8 +48,7 @@ int RID_LADDAS[] = { 14, 22, 30, 38, 46, 54 };
 - (id) init {
     // Load the world (we add it in initWorld)
     if([self isMemberOfClass:[Level0 class]])
-//        world = [CCTMXTiledMap tiledMapWithTMXFile:@"level0.tmx"];
-        world = [CCTMXTiledMap tiledMapWithTMXFile:@"debug-scroll.tmx"];
+        world = [CCTMXTiledMap tiledMapWithTMXFile:TILED_MAP];
     
     if( (self=[super init])) {        
         [self initWorld];

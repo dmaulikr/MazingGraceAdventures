@@ -209,10 +209,8 @@
 
 - (bool) collidesWithEntity:(Entity *)entity {
     CGRect me = CGRectMake(self.x, self.y, self.width,self.height);
-//    CGRect me = CGRectMake(self.position.x, self.position.y, level.tileSize, level.tileSize);
     
-    CGRect other = 
-        CGRectMake(entity.position.x, entity.position.y, entity.width, entity.height);
+    CGRect other = CGRectMake(entity.x, entity.y, entity.width, entity.height);
     
     bool collided = CGRectIntersectsRect(me, other);
     
@@ -252,7 +250,7 @@
 
 - (void) updateClimbing {    
 	// Climb if we're on ladda
-	if(INPUT_VERTICAL(input) && [level onLadda:self.position])
+	if(INPUT_VERTICAL(input) && [level onLadda:ccp(self.x,self.y)])
 		[self climb];
 	
 	// Climb inertially

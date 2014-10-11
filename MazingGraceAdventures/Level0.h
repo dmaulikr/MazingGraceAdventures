@@ -13,8 +13,8 @@
 #define RID_NO_TILE 0
 #define RID_WALL 1
 #define RID_GRACE 2
-#define RID_MONSTA 45
-#define RID_FLYA 53
+#define RID_GORGON 45
+#define RID_HARPIE 53
 #define RID_GOAL 60
 #define RID_ENEMY_BLOCK 61
 #define RID_MUSHROOM_SMALL 9

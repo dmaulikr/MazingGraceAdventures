@@ -18,8 +18,8 @@
 	[self moveOnCondition];
 }
 
--(void) moveTo:(int) x and: (int) y {
-	[self setPosition:ccp(self.position.x + x,self.position.y + y)];
+-(void) moveTo:(int) dx and: (int) dy {
+	[self setPosition:ccp(self.x + dx,self.y + dy)];
 }
 
 -(void) moveOnCondition {

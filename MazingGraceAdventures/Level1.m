@@ -77,15 +77,15 @@
 //            CGPoint here = [Helper tileToWorldX:tilex andY:tiley];
             CGPoint here = [Helper tile:ccp(tilex,tiley) toWorld:world];
             
-            if(gid == RID_MONSTA) {
-                Gorgon* monsta = (Gorgon*) [[Gorgon alloc] initAt:here of:self];
+            if(gid == RID_GORGON) {
+                Gorgon* gorgon = (Gorgon*) [[Gorgon alloc] initAt:here of:self];
                 
-                [self addChild:monsta z:90];
+                [self addChild:gorgon z:90];
                 
-                [enemies addObject:monsta]; 
+                [enemies addObject:gorgon]; 
             }
             
-            else if(gid == RID_FLYA) {
+            else if(gid == RID_HARPIE) {
                 Harpie* flya = (Harpie*) [[Harpie alloc] initAt:here of:self];
                 
                 [self addChild:flya z:90];
@@ -166,7 +166,7 @@
     int xoffs[] = { 0, enemy.width };
     
     for(int i=0; i < 2; i++) {
-        CGPoint position = enemy.position;
+        CGPoint position = ccp(enemy.x,enemy.y);
         
         position.x += xoffs[i];
         

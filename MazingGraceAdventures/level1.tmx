@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
- <tileset name="MGA" firstgid="1" tilewidth="16" tileheight="16">
-  <image source="tiles_mga.png"/>
+<map version="1.0" orientation="orthogonal" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="MGA" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
  </tileset>
- <layer name="platforms" width="40" height="30">
+ <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2VQQqAIBBFsytUi2rXObr/uTJIGGSEZBz9Dj74GxF5fgd0Ey7uCyoofndivZXf7nNEOZl9KP2lGH4yJH6Lz0qylZIiWO6vBhp+8bvHyZmDXvqT3FETpP64uUDy48jx4+6nPQeW+itB7hv02F+Nf/UvPfaHhHW/krNKzwrnWO9Pm+Eng/ObW4gkCH4XaF63B3r9S9XAEgAA
+   H4sIAAAAAAAAA+3aUQ7BQBRAUfUtfrAB67D/dSEhIWnV9L5O37T3JPMnTV2vRtHtNFX3WprGfoz9GPsx9mPsx9iPsR9jP4b0Oz3WeWRdAs4xM+ePeffb8gwRzh9jP6ak39B+seXr2/ljavVb6+w6f4z9GPsx9mPsx0R8/qP7ad9xW9mXnT/Gfoz9GPsx2fsdlj6BEb/6/bPfluzHpffALdwzZ5+/7OzH2I+xH2M/xn6M/ZjI/29k+lxWi/PH2I+Zu1/2+y/K+WOG/n+1phmZU6b5i/i+p/Zrn6lfi0r7eZ1/c/6Y2v1a/q23j/PH9PVby33t5/OY6zk4f4z9mMh+x6DjtIT2i3yvrPF+Fc3rl7EfYz/Gfkxfv/0SJ5LIreCx735X16T1bHcHKauyBABLAAA=
   </data>
  </layer>
- <layer name="clouds" width="40" height="30">
+ <layer name="clouds" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3RwQkAIAwEwYCK9l+x6UEIKjOw73tcBLdqWc9GwdbMVsHOyyr/4IyvAAAA/rIBoxpPiMASAAA=
+   H4sIAAAAAAAAA+3YQQrAMAgEwEAa0v+/uF7yAS8GOwN7F1QEx4CeZuSJrOpCLrAjb3URtGbf+Auzfo/TC/0AyHHTgC78PAAAgGr+LAAAAAAAAAAAAAB5H9MhSuoASwAA
   </data>
  </layer>
- <layer name="stalks" width="40" height="30">
+ <layer name="stalks" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3VMQrAIBBE0XiJlCksvP8RJZBKXBAn6jDMh+0fK2q6eEvfsGYfln1Ys777b0iQfVj2YdmHZR+W6v+xKxVfWQ0JGvU9qyFBKvtj9+1679pU9sfu8/3tp+I7fb6ZdF5bBbnzNDfAEgAA
+   H4sIAAAAAAAAA+3YMQqDQBBAUU9hmTKl9z9eeiXF8knclfc6C2H4rKzMtgEAK9jvHmBx+jUj/V4/m2Jd+o15n571G6Nfo1+jX6Nfc+73r3efQr9Gv0a/ptwB+jl/lX5N2Vfp5/xV+jXu36Y0sOvXryrfr36Nfo1+jX6Nfo1+jX6Nflcj/9P6XenX6Nfo19hJNbP3M19jvsZ8zezzzU6/Rr9mtn7H3QMM0q/Rr9Gv0a/Rr9Gv0a/Rr9Gv0a+ZrR/ffQD3AA3LAEsAAA==
   </data>
  </layer>
- <layer name="enemies" width="40" height="30">
+ <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WMQoAIAiFYS/k2Nj9r9VSSwjVwyDi/5ZQMGjooRmAW+pUl6R7AGi8nz/8qZM3qNkDANg3cpnMBZAl2vc86K0oMy9qRwoWwsASAAA=
+   H4sIAAAAAAAAA+3bPRJAMBAGUBdSKt3/WipNxn82LN5rjCIGk0k+O6vrAACAu4zFeR90Hf5rnkPmRKza9zmE3AUAALzPnKVlYgAgu6Ua4FrNfiyOa2PUaQEAcnoyp0XXyWROgDayr69H95PszwEAAOxrkeuf7OXynQIA33Wm/2pLTf/V1X+0o8YTZwKNGipOAEsAAA==
   </data>
  </layer>
- <layer name="rewards" width="40" height="30">
+ <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WsQ0AIAgFUXqjbqT7b2XnAiJfw70ecqHCDACQzVQHBBvqgA9wI9xW1AEAtuq4K9tPAUTrB7PNreINCwLgaT/AEgAA
+   H4sIAAAAAAAAA+3aMQ6AIAxAUWaNeh0nvf+tvIAbjYX63g75CyGhtAYAAIzgzg5gKld2APAZ550ZrdkBAFDAFriXNwcAeHd0rN3DKgAAyGIOB/Bv7oEa/E8AKjuzAxjakh0QpGdWAwAAQB0PwVpy/gBLAAA=
+  </data>
+ </layer>
+ <layer name="debug" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAOBn+4+38gBLAAA=
   </data>
  </layer>
 </map>

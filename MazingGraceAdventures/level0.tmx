@@ -5,17 +5,22 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aQa6CMBSFYXFonKkT1+AS3P+69A5ICGlAOaU9Lf+XMITe96eKL+lw8jXUHmDFcPKe0Xm2QD8N/TT00+Tqd/te98n1yPDMcJR+e3GeLSz1m+6pXPvpXy33c+A8W6CfZs9+OT7/Pfbb612b0mO/kpxnC2795nvbabYUt35zzrOFX/rV/B3YQ7+anGcLuftdMj4rHKnf/Lt//nlPrXNdeWYr/Zb+7pxrTY29l9ZqpV+ptUrcUxL9NPTTuPXr5f+P1LtUfa+w//S1StxTEv009NO49ntvuKeGsd/T9GqlH7ahn4Z+Gvpp6Kehn4Z+Gvpp6Kehn4Z+GvfzV+7Yfxr6aeincT9/5Y79p6Gfhn6akuevesT+09BPQz+Ne79X7QFWlDx/1SP3/eeOfhr6aVL9zjUGaZT7+Sv3K9p9ADDZWkoASwAA
+   H4sIAAAAAAAAA+2aQQ7CIBBF1bU7deNZvP+51MQmTdPWwh9gGN5LZuGmxMcHis75BLmcfwV54E8Dfxr407Dyd/vUfVYPg2f2APnT2PM3z9QoeUqF/GngT6OkvxHWf46/Uc/aNVi/Gt78LbPtHW/+euOIvxHOgVzInwb+NCz9Lff+I+v9ajR2KyZ/qd9bIdL7I+tXo6a/iPOEPw1v/qLcP9bOUnWvJ3/6WNGw8LeV1bWKBu8vGvjT2Lp//Kue7wyWkD8Nz/56uCd79tcDqf56yERNyJ8G/jTwp1Gq/2+UPZL8aeBPI4K/Er9VHoX+K40I+Ush5z/qPUbzZw3+NFr0X+XMV8szYo8W+YuU9+j+ptyWyml0f6Vp0X8V0V/tMaOAPw38aeBPo2b/1XzMKJA/jV79eZkD/Gm09HcxeEZtXovPk78nlVVfd28XUtsRAEsAAA==
   </data>
  </layer>
  <layer name="clouds" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VywkAIAxEwYC//js2RSgBnYF339tGcFvLejaqh3xoZbN6BADP8OkAAAAAAAAAAAAAAAAAAAAAZ2yvnuXTAEsAAA==
+   H4sIAAAAAAAAA+3WMQoAIAwDwIL6/y9bkD5AUBy8g+wlSxPBbS3TM+P1IR/SPQAn+SsAAOyqDVmxJQEAAAAAAAAAAAAAAABgmdSSzDgASwAA
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aoRHAIBREQTxDSgr9d4XCRJM5QnYreAJz8ykFgBXudADH6OkAIKqmAzbV0gHwEm8bgOn0LXilAwAAAB7sFAAAAP7EHxUAgG9z1wAAAHZjp7DSAPIbZIgASwAA
+   H4sIAAAAAAAAA+3bMRKCMBCGUVoEteIuVnD/W3kBx1Enmd8l75VUX0Gzm2SaAGhhTwdwGkc6AIha0gF/6poOgE782wCM4pYOgI7sBalkTgecwJYOAKAZcwqjuKcDAKCgNR0AlPJIB3zIHZWxOc+C77W60+98jgrsEGtwrgEA0I/ZDX7Tek7ptcd8tx+/vPjmnXfGE15miVAASwAA
+  </data>
+ </layer>
+ <layer name="debug" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQEAAAwCIDOtf7jF8BASkAAAAAAAAAAAAAAAAAAAAAAAAOuuHWDKA8pAIvMASwAA
   </data>
  </layer>
 </map>

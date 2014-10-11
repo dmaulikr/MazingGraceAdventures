@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="4" height="3" tilewidth="160" tileheight="160">
- <tileset name="Background" firstgid="1" tilewidth="160" tileheight="160">
-  <image source="sky_160.png"/>
+<map version="1.0" orientation="orthogonal" width="8" height="6" tilewidth="160" tileheight="160">
+ <tileset firstgid="1" name="Background" tilewidth="160" tileheight="160">
+  <image source="sky_160.png" width="160" height="160"/>
  </tileset>
- <layer name="Layer 0" width="4" height="3">
+ <layer name="Layer 0" width="8" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAGNkYGBgJAEDACo904owAAAA
+   H4sIAAAAAAAAA2NkYGBgHMIYAMxpR8DAAAAA
   </data>
  </layer>
 </map>
