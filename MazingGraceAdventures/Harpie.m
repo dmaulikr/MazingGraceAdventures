@@ -8,7 +8,7 @@
 
 #import "Harpie.h"
 
-#define SPEED_FLYA 2
+#define SPEED_FLYA 4
 
 #define FACING_LEFT 1
 #define FACING_RIGHT 0

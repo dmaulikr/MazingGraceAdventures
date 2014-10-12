@@ -8,7 +8,7 @@
 
 #import "Gorgon.h"
 
-#define SPEED_MONSTA 2
+#define SPEED_MONSTA 4
 
 #define FACING_RIGHT 0
 #define FACING_LEFT 1

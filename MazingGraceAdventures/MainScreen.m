@@ -12,6 +12,11 @@
 #import "SimpleAudioEngine.h"
 #import "Options.h"
 
+// Theme songs
+//#define THEME_SONG @"Mindblogger.mp3"
+// "The River War Orginal Mix" by PANG! see http://www.beatport.com/track/the-river-war-original-mix/4225775
+#define THEME_SONG @"4225775_The_River_War_Original_Mix.mp3"
+
 
 @implementation MainScreen
 +(CCScene *) scene
@@ -85,7 +90,7 @@
     soundToggleItem.selectedIndex =  soundsOn ? 0 : 1;
     
     if(soundsOn)
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"Mindblogger.mp3" loop:true];
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
     
     CCMenuItem *quitButton =
         [CCMenuItemFont itemWithString:@"Quit" target:self selector:@selector(onQuit:)];
@@ -136,8 +141,7 @@
     else {
         [Options enableSounds:TRUE];
         
-//        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"Mindblogger.mp3" loop:true];
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"4225775_The_River_War_Original_Mix.mp3" loop:true];
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
     }
 }
 

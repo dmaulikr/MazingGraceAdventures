@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aUQ7BQBRAUfUtfrAB67D/dSEhIWnV9L5O37T3JPMnTV2vRtHtNFX3WprGfoz9GPsx9mPsx9iPsR9jP4b0Oz3WeWRdAs4xM+ePeffb8gwRzh9jP6ak39B+seXr2/ljavVb6+w6f4z9GPsx9mPsx0R8/qP7ad9xW9mXnT/Gfoz9GPsx2fsdlj6BEb/6/bPfluzHpffALdwzZ5+/7OzH2I+xH2M/xn6M/ZjI/29k+lxWi/PH2I+Zu1/2+y/K+WOG/n+1phmZU6b5i/i+p/Zrn6lfi0r7eZ1/c/6Y2v1a/q23j/PH9PVby33t5/OY6zk4f4z9mMh+x6DjtIT2i3yvrPF+Fc3rl7EfYz/Gfkxfv/0SJ5LIreCx735X16T1bHcHKauyBABLAAA=
+   H4sIAAAAAAAAA+3aUQ7BQBRAUfUtfrAB67D/dSEhqaRV0/s63rT3JPMnTV2vRtHtNFf3WprHfoz9GPsx9mPsx9iPsR9jP4b0Oz3WeWJdAs4xM+ePeffb8gwRzh9jP6ak39h+seXr2/ljavVb6+w6f4z9GPsx9mPsx0R8/qP76dBxW9mXnT/Gfoz9GPsx2fsd/n0CE771+2W/LdmPS++BW7hnzj5/2dmPsR9jP8Z+jP0Y+zGR/9/I9LmsFuePsR+zdL/s91+U88eM/f9qTTOypEzzF/F9T+3XPlO/FpX28zr/5Pwxtfu1/FvvEOePGeq3lvva/vNY6jk4f4z9mMh+x6DjtIT2i3yvrPF+Fc3rl7EfYz/Gfky/3/6fJ5LIreCx735X16z1bHcHcvsKPQBLAAA=
   </data>
  </layer>
  <layer name="clouds" width="80" height="60">

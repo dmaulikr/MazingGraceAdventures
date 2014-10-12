@@ -132,7 +132,7 @@
     // (Grace's world coordinate is its screen coordinate since grace
     // has been scrolled with the world!
     //  Also, we need to take into grace's anchor which is @ (0,0). 
-    feedback.position = ccp(grace.x, grace.y + grace.height);
+    feedback.position = ccp(TOPOINT(grace.x), TOPOINT(grace.y + grace.height));
 
     [feedback setVisible:TRUE];
 	
