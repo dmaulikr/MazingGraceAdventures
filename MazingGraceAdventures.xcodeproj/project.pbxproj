@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D57BB891A0689D400B5122B /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D57BB881A0689D400B5122B /* GameOver.m */; };
 		8DD645B719E6D20000F0575E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD645B619E6D20000F0575E /* QuartzCore.framework */; };
 		8DD645B919E6D20000F0575E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD645B819E6D20000F0575E /* OpenGLES.framework */; };
 		8DD645BB19E6D20000F0575E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD645BA19E6D20000F0575E /* OpenAL.framework */; };
@@ -198,12 +199,13 @@
 		8DD647FC19E6DB1200F0575E /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD647F419E6DB1200F0575E /* SneakyJoystick.m */; };
 		8DD647FD19E6DB1200F0575E /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD647F619E6DB1200F0575E /* SneakyJoystickSkinnedBase.m */; };
 		8DD647FF19E6DE5300F0575E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD647FE19E6DE5300F0575E /* Default-568h@2x.png */; };
-		8DD6480219E6DFBE00F0575E /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6480119E6DFBE00F0575E /* GameOver.m */; };
 		8DD6480819E8693300F0575E /* debug-scroll.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6480719E8693300F0575E /* debug-scroll.tmx */; };
 		8DD6480A19E86EF600F0575E /* 4225775_The_River_War_Original_Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6480919E86EF600F0575E /* 4225775_The_River_War_Original_Mix.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D57BB871A0689D400B5122B /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		8D57BB881A0689D400B5122B /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
 		8DD645B319E6D20000F0575E /* MazingGraceAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazingGraceAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD645B619E6D20000F0575E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8DD645B819E6D20000F0575E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -561,8 +563,6 @@
 		8DD647F519E6DB1200F0575E /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
 		8DD647F619E6DB1200F0575E /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
 		8DD647FE19E6DE5300F0575E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8DD6480019E6DFBE00F0575E /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOver.h; path = "../../iMGABaseCC 2/iMGABaseCC/GameOver.h"; sourceTree = "<group>"; };
-		8DD6480119E6DFBE00F0575E /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOver.m; path = "../../iMGABaseCC 2/iMGABaseCC/GameOver.m"; sourceTree = "<group>"; };
 		8DD6480719E8693300F0575E /* debug-scroll.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "debug-scroll.tmx"; sourceTree = "<group>"; };
 		8DD6480919E86EF600F0575E /* 4225775_The_River_War_Original_Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4225775_The_River_War_Original_Mix.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1057,10 +1057,10 @@
 				8DD6477C19E6D42100F0575E /* Level0.m */,
 				8DD6477D19E6D42100F0575E /* Level1.h */,
 				8DD6477E19E6D42100F0575E /* Level1.m */,
-				8DD6480019E6DFBE00F0575E /* GameOver.h */,
-				8DD6480119E6DFBE00F0575E /* GameOver.m */,
 				8DD6477F19E6D42100F0575E /* MainScreen.h */,
 				8DD6478019E6D42100F0575E /* MainScreen.m */,
+				8D57BB871A0689D400B5122B /* GameOver.h */,
+				8D57BB881A0689D400B5122B /* GameOver.m */,
 				8DD6478119E6D42100F0575E /* Splash.h */,
 				8DD6478219E6D42100F0575E /* Splash.m */,
 			);
@@ -1300,7 +1300,6 @@
 				8DD6478719E6D42100F0575E /* Level0.m in Sources */,
 				8DD647FC19E6DB1200F0575E /* SneakyJoystick.m in Sources */,
 				8DD6472919E6D20300F0575E /* aabb.c in Sources */,
-				8DD6480219E6DFBE00F0575E /* GameOver.m in Sources */,
 				8DD6479B19E6D49300F0575E /* LevelSequence.m in Sources */,
 				8DD6478619E6D42100F0575E /* InterLevel.m in Sources */,
 				8DD6473119E6D20300F0575E /* matrix.c in Sources */,
@@ -1402,6 +1401,7 @@
 				8DD6478A19E6D42100F0575E /* Splash.m in Sources */,
 				8DD6471319E6D20200F0575E /* SimpleAudioEngine.m in Sources */,
 				8DD6466719E6D20100F0575E /* CCProgressTimer.m in Sources */,
+				8D57BB891A0689D400B5122B /* GameOver.m in Sources */,
 				8DD6473B19E6D20300F0575E /* quaternion.c in Sources */,
 				8DD6465519E6D20100F0575E /* CCParticleBatchNode.m in Sources */,
 				8DD646A419E6D20200F0575E /* CCTMXLayer.m in Sources */,
@@ -1517,6 +1517,7 @@
 				8DD6475819E6D20300F0575E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,11 +28,11 @@
     bool caught;
 	bool complete;
 	int mushRoomCount;
-    NSMutableArray* rungs;
+
 	Goal* goal;
 	Grace* grace;
     CCTMXLayer* rewardsLayer;
-    CCTMXLayer* stalksLayer;
+
 }
 
 /** Gets a scene for this layer */

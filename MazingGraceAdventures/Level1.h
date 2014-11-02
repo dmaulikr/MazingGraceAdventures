@@ -11,9 +11,11 @@
 /** Level 1 handles enemies */
 @interface Level1 : Level0 {
 	NSMutableArray* enemies;
+    NSMutableArray* rungs;
     CCTMXLayer* enemiesLayer;
     NSArray* bubbles;
     CCLabelTTF* feedback;
+    CCTMXLayer* stalksLayer;
 }
 
 /** Gets a scene for this layer */

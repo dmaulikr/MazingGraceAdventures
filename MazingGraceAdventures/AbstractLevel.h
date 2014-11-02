@@ -22,10 +22,10 @@
 /** Updates the level */
 - (void) update:(ccTime)dt;
 
-/** Returns true if enemy collides with the level */
+/** Returns true if enemy collides with the level: MUST override */
 - (bool) collidesWith: (id) enemy;
 
-/** Returns true if the position is on the ladda */
+/** Returns true if the position is on the ladda: MUST override */
 - (bool) onLadda:(CGPoint) position;
 
 @end

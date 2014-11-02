@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aUQ7BQBRAUfUtfrAB67D/dSEhqaRV0/s63rT3JPMnTV2vRtHtNFf3WprHfoz9GPsx9mPsx9iPsR9jP4b0Oz3WeWJdAs4xM+ePeffb8gwRzh9jP6ak39h+seXr2/ljavVb6+w6f4z9GPsx9mPsx0R8/qP76dBxW9mXnT/Gfoz9GPsx2fsd/n0CE771+2W/LdmPS++BW7hnzj5/2dmPsR9jP8Z+jP0Y+zGR/9/I9LmsFuePsR+zdL/s91+U88eM/f9qTTOypEzzF/F9T+3XPlO/FpX28zr/5Pwxtfu1/FvvEOePGeq3lvva/vNY6jk4f4z9mMh+x6DjtIT2i3yvrPF+Fc3rl7EfYz/Gfky/3/6fJ5LIreCx735X16z1bHcHcvsKPQBLAAA=
+   H4sIAAAAAAAAA+3aQQ6CMBQAUXHtTr2A5/D+51ITSViA2E4pv2Ve0p0xOH6oqMNJuYbvUh77MfZj7MfYj7EfYz/Gfoz9GNLv+l63lXUvcIyROX/M2O/IM0Q4f4z9mJR+S/vFkc9v54+p1a/X2XX+GPsx9mPsx9iPKfH5j+6nc8/byr7s/DH2Y+zH2I+J3u+y9wGs+NXvn/02ZT9OvQdu4Z45+vxFZz/Gfoz9GPsx9mPsx5T8/0akz2W1OH+M/Zgt+7Vw/0U5f8zS/696mpEtRZq/Et/31H7vI/VrEf397ejnufPH1O7X2ww7f8xcv17ua6evY6vX4Pwx9mPsx9B+Ja+VNa5XpTl/jP0Y+zH2Y6b9znseSCDPhMeO/R6urPVp9wJzKFSAAEsAAA==
   </data>
  </layer>
  <layer name="clouds" width="80" height="60">
@@ -25,7 +25,7 @@
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aMQ6AIAxAUWaNeh0nvf+tvIAbjYX63g75CyGhtAYAAIzgzg5gKld2APAZ550ZrdkBAFDAFriXNwcAeHd0rN3DKgAAyGIOB/Bv7oEa/E8AKjuzAxjakh0QpGdWAwAAQB0PwVpy/gBLAAA=
+   H4sIAAAAAAAAA+3asQ2AIBBAUWqNuo4V7r+VC1iYQDwO3+shvyEkHKUAAAAjuKIDSKVGBwCfcd7JaI0OAIAJbB338uYAAM+OhrV7twoAAKKYwwH8m3tgDv4nADM7owMY2hId0EnLrAbgDXNdAIAcbns1v7EASwAA
   </data>
  </layer>
  <layer name="debug" width="80" height="60">

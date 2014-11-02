@@ -13,6 +13,7 @@
 #import "SoundEffects.h"
 #import "Lives.h"
 
+#define TILED_MAP @"level1.tmx"
 #define REWARD_CRUSH_MONSTA 20
 
 @implementation Level1
@@ -35,7 +36,7 @@
 
 - (id) init {
     if([self isMemberOfClass:[Level1 class]])
-        world = [CCTMXTiledMap tiledMapWithTMXFile:@"level1.tmx"];
+        world = [CCTMXTiledMap tiledMapWithTMXFile:TILED_MAP];
     
     if((self = [super init])) {
         bubbles = [[NSArray alloc]initWithObjects:
@@ -86,11 +87,11 @@
             }
             
             else if(gid == RID_HARPIE) {
-                Harpie* flya = (Harpie*) [[Harpie alloc] initAt:here of:self];
+                Harpie* harpie = (Harpie*) [[Harpie alloc] initAt:here of:self];
                 
-                [self addChild:flya z:90];
+                [self addChild:harpie z:90];
                 
-                [enemies addObject:flya];
+                [enemies addObject:harpie];
             }
         }
     }
@@ -117,9 +118,10 @@
 -(void) handlePCCaught {
 	[Lives decrement];
     
+    // Play random sound
     [SoundEffects boo];
     
-	// Select a random message
+	// Show random feedback message
 	int sz = [bubbles count];
 	
 	int lottery = rand() % sz;
@@ -131,14 +133,13 @@
     // Position the feedback on the screen just above grace's head.
     // (Grace's world coordinate is its screen coordinate since grace
     // has been scrolled with the world!
-    //  Also, we need to take into grace's anchor which is @ (0,0). 
+    // Note: TOPOINT converts world -> point coordinate to compensate for Retina displays
     feedback.position = ccp(TOPOINT(grace.x), TOPOINT(grace.y + grace.height));
 
     [feedback setVisible:TRUE];
 	
 	// Set the alarm to freeze everybody
-//    [self schedule:@selector(caughtReset)];
-	[NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(caughtReset) userInfo:nil repeats:NO];
+	[NSTimer scheduledTimerWithTimeInterval:2.5 target:self selector:@selector(caughtReset) userInfo:nil repeats:NO];
 }
 
 - (void) caughtReset {
@@ -149,8 +150,6 @@
 		return;
 	}
     
-//	[self unschedule:@selector(caughtReset)];
-    
 	// Reset grace to its initial position and not moving
     [grace reset];
     
@@ -160,6 +159,9 @@
 }
 
 - (bool) collidesWith: (id) enemy_ {
+    // Note: enemy_ is id, not Enemy, type because Enemy talks to AbstractLevel and
+    // invokes this method which in abstract doesn't know about Enemy.
+    
     // Check for collision with a block or platform
     Enemy* enemy = (Enemy*) enemy_;
     
@@ -170,7 +172,6 @@
         
         position.x += xoffs[i];
         
-//        CGPoint point = [Helper worldToTile: position];
         CGPoint point = [Helper world:world toTile:position];
     
         int gid = [enemiesLayer tileGIDAt:point];
